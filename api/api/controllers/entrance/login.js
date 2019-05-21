@@ -35,13 +35,8 @@ module.exports = {
 
     badCombo: {
       description: 'The provided email and password combination does not match any user in the database.',
-      responseType: 'unauthorized'
-    },
-
-    forbidden: {
-      responseType: 'forbidden',
-      description: 'The user doesn\'t have permission to do this action.'
-    },
+      responseType: 'unAuthorized'
+    }
 
   },
 

@@ -50,11 +50,6 @@ module.exports = {
       extendedDescription: `Under the covers, this creates a new record with the provided informations, sends a confirmation email and stores the id of the logged-in user in the session as the \`userId\` key.`
     },
 
-    invalid: {
-      responseType: 'badRequest',
-      description: 'The provided partner, password and/or email address are invalid.'
-    },
-
     emailAlreadyInUse: {
       statusCode: 409,
       description: 'The provided email address is already in use.'
