@@ -5,10 +5,13 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "@sailshq/lodash": "^3.10.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
     "sails": "^1.2.2",
+    "sails-hook-organics": "^1.0.0",
     "sails-hook-orm": "^2.1.1",
-    "sails-hook-sockets": "^1.5.5",
-    "@sailshq/lodash": "^3.10.3"
+    "sails-hook-sockets": "^1.5.5"
   },
   "devDependencies": {
     "eslint": "5.16.0"

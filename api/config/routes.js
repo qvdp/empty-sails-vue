@@ -10,5 +10,22 @@
 
 module.exports.routes = {
 
+  //  ╔═╗╔═╗╦  ╔═╗╔╗╔╔╦╗╔═╗╔═╗╦╔╗╔╔╦╗╔═╗
+  //  ╠═╣╠═╝║  ║╣ ║║║ ║║╠═╝║ ║║║║║ ║ ╚═╗
+  //  ╩ ╩╩  ╩  ╚═╝╝╚╝═╩╝╩  ╚═╝╩╝╚╝ ╩ ╚═╝
+
+  /**************************
+  *                         *
+  *       P U B L I C       *
+  *                         *
+  **************************/
+
+  //________________________
+  //
+  //   Entrance endpoints
+  //________________________
+
+  'POST   /api/v1/entrance/signup':                     { action: 'entrance/signup' },
+  'POST   /api/v1/entrance/login':                      { action: 'entrance/login' }
 
 };
